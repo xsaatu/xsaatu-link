@@ -656,9 +656,9 @@ video {
   padding-right: 1.25rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .px-8 {
@@ -671,18 +671,18 @@ video {
   padding-bottom: 1rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
+.pt-14 {
+  padding-top: 3.5rem;
 }
 
 .pb-2 {
@@ -693,8 +693,8 @@ video {
   padding-top: 0.25rem;
 }
 
-.pt-7 {
-  padding-top: 1.75rem;
+.pt-24 {
+  padding-top: 6rem;
 }
 
 .pt-5 {
@@ -705,6 +705,10 @@ video {
   padding-top: 0.75rem;
 }
 
+.pb-\[125px\] {
+  padding-bottom: 125px;
+}
+
 .pt-\[7px\] {
   padding-top: 7px;
 }
@@ -713,64 +717,16 @@ video {
   padding-top: 2.5rem;
 }
 
+.pb-28 {
+  padding-bottom: 7rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
+}
+
 .pt-12 {
   padding-top: 3rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pb-36 {
-  padding-bottom: 9rem;
-}
-
-.pb-60 {
-  padding-bottom: 15rem;
-}
-
-.pt-28 {
-  padding-top: 7rem;
-}
-
-.pb-48 {
-  padding-bottom: 12rem;
-}
-
-.pt-14 {
-  padding-top: 3.5rem;
-}
-
-.pt-24 {
-  padding-top: 6rem;
-}
-
-.pb-40 {
-  padding-bottom: 10rem;
-}
-
-.pb-32 {
-  padding-bottom: 8rem;
-}
-
-.pb-\[130px\] {
-  padding-bottom: 130px;
-}
-
-.pb-\[135px\] {
-  padding-bottom: 135px;
-}
-
-.pb-\[140px\] {
-  padding-bottom: 140px;
-}
-
-.pb-\[145px\] {
-  padding-bottom: 145px;
-}
-
-.pb-\[125px\] {
-  padding-bottom: 125px;
 }
 
 .text-center {
@@ -782,9 +738,9 @@ video {
   line-height: 2rem;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-xs {
@@ -792,17 +748,13 @@ video {
   line-height: 1rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-semibold {
-  font-weight: 600;
 }
 
 .font-medium {
@@ -876,10 +828,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:-top-10 {
-    top: -2.5rem;
-  }
-
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -895,14 +843,6 @@ video {
 
   .lg\:w-3\/5 {
     width: 60%;
-  }
-
-  .lg\:w-7 {
-    width: 1.75rem;
-  }
-
-  .lg\:w-10 {
-    width: 2.5rem;
   }
 
   .lg\:w-8 {
